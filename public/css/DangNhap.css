@@ -1,0 +1,140 @@
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+/*header*/
+.header {
+    height: 100px;
+    width: 100%;
+    background: #003C71;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+nav a:first-child {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav a:first-child img {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.header nav a:hover {
+    color: #e64d1e;
+}
+
+
+/*container*/
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px
+}
+
+.title {
+    margin-top: 40px;
+    color: #C31313;
+}
+
+.form-login {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 200px;
+    width: 320px;
+    background: #21C3E0;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.text-input label {
+    float: left;
+    margin-left: 3%;
+    margin-top: 10%;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.text-input input {
+    float: right;
+    margin-top: 30px;
+    margin-right: 3%;
+    height: 20px;
+}
+
+form button {
+    margin-top: 10%;
+    padding: 10px;
+    margin-left: 15%;
+    background: #FFBD00;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/*footer*/
+footer {
+    background-color: #003C71;
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center; 
+    font-size: 14px;
+    color: #fff;
+}
+
+.information {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.information p {
+    margin-bottom: 10px;
+}
+
+.information a {
+    color: #b4b4b4;
+}
+
+.information a:hover {
+    color: #f44336;
+}

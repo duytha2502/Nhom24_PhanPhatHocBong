@@ -1,0 +1,55 @@
+/*container*/
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-top: 50px;
+    color: #C31313;
+}
+
+.form-update {
+    margin-top: 30px;
+    height: 400px;
+    width: 400px;
+    background: #21C3E0;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.text-input input {
+    padding: 5px;
+    float: right;
+    margin-right: 10%;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.text-input label {
+    float: left;
+    margin-top: 30px;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+form button {
+    padding: 10px;
+    background: #FFBD00;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10%;
+}
+
+form button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
